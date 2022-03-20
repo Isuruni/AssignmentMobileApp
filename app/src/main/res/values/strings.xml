@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MY First App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Main Page</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Next</string>
+    <string name="to_first_fragment">First Fragment</string>
+
+    <string name="edit_box_text">Your UserId</string>
+
+    <string name="first_fragment">Welcome to MY First App\nPlease Enter your UserId to display your information</string>
+    <string name="first_fragment1">Welcome </string>
+
+    <string name="second_fragment">Welcome to second fragment</string>
+
+    <string name="second_activity">Welcome to the Second activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_third_fragment">Welcome to third fragment</string>
+</resources>
