@@ -42,8 +42,22 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            //findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-            //val user= userAPIService.getUser("2");
+           // findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            /*val user= userAPIService.getUser("1");
+
+            user.enqueue(object : Callback<Users> {
+                override fun onResponse(call: Call<Users>, response: Response<Users>) {
+                    val body = response.body()
+                    body?.let {
+                        Log.i("FirstFragment Name:",it.name)
+                    }
+                }
+                override fun onFailure(call: Call<Users>, t: Throwable) {
+                    Log.i("FirstFragment",t.message!!)
+
+                }
+            })*/
+
             val userId = binding.editTextFirst.editableText
             val user = userAPIService.getUser(userId.toString());
 
@@ -52,19 +66,18 @@ class FirstFragment : Fragment() {
 
                     val body = response.body()
                     body?.let {
-                        Log.i("FirstFragment ", it.name)
                         binding.textViewFirst1.text =
                             "Welcome " + it.name + "\n" + "Here is your User Information"
                         binding.textViewFirst2.text = "UserId :"
                         binding.textViewFirst3.text = "Username :"
                         binding.textViewFirst4.text = "Name :"
                         binding.textViewFirst5.text = "Email :"
-                        binding.textViewFirst6.text = "Address :"
+                        binding.textViewFirst6.text = "Website :"
                         binding.textViewFirst7.text = it.id.toString()
                         binding.textViewFirst8.text = it.username
                         binding.textViewFirst9.text = it.name
                         binding.textViewFirst10.text = it.email
-                        binding.textViewFirst11.text = it.address
+                        binding.textViewFirst11.text = it.website
                     }
                 }
 

@@ -8,17 +8,19 @@
 
     <TextView
         android:id="@+id/textview_first"
-        android:layout_width="337dp"
-        android:layout_height="173dp"
+        android:layout_width="397dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:text="@string/first_fragment"
-        android:textSize="25sp"
-        android:textStyle="bold"
         android:textColor="#00008b"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/button_first"
@@ -27,39 +29,41 @@
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_first" />
+        app:layout_constraintTop_toBottomOf="@id/textview_first"
+        app:layout_constraintVertical_bias="0.887" />
 
 
     <EditText
         android:id="@+id/editText_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="88dp"
         android:ems="10"
         android:gravity="center_horizontal"
         android:hint="Your UserId"
         android:inputType="textPersonName"
         android:textColorHint="#00008b"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView_first1"
-        android:layout_width="333dp"
-        android:layout_height="106dp"
+        android:layout_width="398dp"
+        android:layout_height="74dp"
         android:gravity="center_horizontal"
         android:textColor="#00008b"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.246" />
 
     <TextView
         android:id="@+id/textView_first2"
@@ -69,11 +73,9 @@
         android:textColor="#00008b"
         android:textSize="25sp"
         android:textStyle="bold"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="170dp"
-        tools:ignore="MissingConstraints" />
-
-
+        tools:layout_editor_absoluteY="231dp" />
 
     <TextView
         android:id="@+id/textView_first3"
@@ -85,7 +87,7 @@
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="233dp" />
+        tools:layout_editor_absoluteY="307dp" />
 
     <TextView
         android:id="@+id/textView_first4"
@@ -97,7 +99,7 @@
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteY="373dp" />
 
     <TextView
         android:id="@+id/textView_first5"
@@ -109,7 +111,7 @@
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="401dp" />
+        tools:layout_editor_absoluteY="453dp" />
 
     <TextView
         android:id="@+id/textView_first6"
@@ -121,7 +123,9 @@
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="488dp" />
+        tools:layout_editor_absoluteY="527dp" />
+
+
     <TextView
         android:id="@+id/textView_first7"
         android:layout_width="235dp"
@@ -131,9 +135,8 @@
         android:textSize="20sp"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="170dp" />
-
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="231dp" />
 
     <TextView
         android:id="@+id/textView_first8"
@@ -141,11 +144,11 @@
         android:layout_height="41dp"
         android:gravity="left"
         android:textColor="#00008b"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteY="307dp" />
 
     <TextView
         android:id="@+id/textView_first9"
@@ -157,7 +160,7 @@
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteY="377dp" />
 
     <TextView
         android:id="@+id/textView_first10"
@@ -168,10 +171,8 @@
         android:textSize="20sp"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="401dp" />
-
-
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="453dp" />
 
     <TextView
         android:id="@+id/textView_first11"
@@ -182,8 +183,8 @@
         android:textSize="20sp"
         android:textStyle="italic"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="488dp" />
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="527dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
